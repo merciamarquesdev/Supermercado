@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import com.example.mercado.fornecimento.entity.Fornecedor;
 import com.example.mercado.fornecimento.repositories.FornecedorRepository;
 
-import java.util.Optional;
 import java.util.UUID;
 
 @Service

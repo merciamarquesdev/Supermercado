@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/sample")
-public class SampleController {
+@RequestMapping("/mercado")
+public class MercadoController {
 
     @GetMapping(path = "/hello", produces = "application/json")
     @ApiResponse(description = "Say Hello")
